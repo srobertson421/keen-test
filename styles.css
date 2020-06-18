@@ -18,10 +18,21 @@ h1,h2,h3,h4,h5,h6,p {
   padding: 12px 12px 0 12px;
 }
 
+.flex {
+  display: flex;
+}
+
+.flex-fill {
+  flex: 1;
+}
+
+.full-width {
+  width: 100%;
+}
+
 .row {
   display: flex;
   flex-direction: row;
-  width: 100%;
 }
 
 .justify-center {

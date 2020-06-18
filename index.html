@@ -10,27 +10,37 @@
   <body>
     <div id="my-keen-slider" class="keen-slider">
       <div class="page keen-slider__slide">
-        <section class="row justify-center">
-          <h1>Home</h1>
+        <section class="row full-width align-center">
+          <h1 class="flex justify-center align-center flex-fill text-center">Home</h1>
         </section>
       </div>
       <div class="page keen-slider__slide">
-        <section class="row justify-center">
-          <h1>About</h1>
+        <section class="row full-width align-center">
+          <h1 class="flex justify-center align-center flex-fill text-center">About</h1>
         </section>
       </div>
       <div class="page keen-slider__slide">
-        <section class="row justify-center">
-          <h1>Contact</h1>
+        <section class="row full-width align-center">
+          <h1 class="flex justify-center align-center flex-fill text-center">Contact</h1>
         </section>
       </div>
     </div>
     <div class="view-tracker">
-      <span data-viewname="/" data-view="1"><h2>Home</h2></span>
-      <span data-viewname="/about" data-view="2"><h2>About</h2></span>
-      <span data-viewname="/contact" data-view="3"><h2>Contact</h2></span>
+      <span role="button" id="home-btn" data-viewname="/" data-view="1">
+        <i data-feather="home"></i>
+        <p>Home</p>
+      </span>
+      <span role="button" id="about-btn" data-viewname="/about" data-view="2">
+        <i data-feather="info"></i>
+        <p>About</p>
+      </span>
+      <span role="button" id="contact-btn" data-viewname="/contact" data-view="3">
+        <i data-feather="phone"></i>
+        <p>Contact</p>
+      </span>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/keen-slider@latest/keen-slider.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
